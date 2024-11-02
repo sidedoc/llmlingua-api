@@ -1,5 +1,7 @@
-llmlingua
-accelerate
-fastapi
-uvicorn
-pydantic
+llmlingua>=0.2.2  # or whatever version supports LLMLingua 2
+transformers>=4.0.0
+accelerate>=0.25.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+torch>=2.0.0  # Since you're using device_map
